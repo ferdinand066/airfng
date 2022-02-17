@@ -1,0 +1,11 @@
+Materi:
+- Password hashing : Bcrypt (Sign Up)
+- XSS : 
+	- htmlspecialchars di hampir semua input yang kemungkinan dapat di XSS pada saat insert data dan search (user list - admin)
+	- strip_tags : allow br, strong, em di input rules (input host), about (update profile) dan input review (view host)
+- CSRF : ada di login, sign up, create host, show host (input transaction & review), update profile
+- SQLI : login, sign up, create host, update profile, add review, add transaction
+- htaccess : 
+	- Options -Indexes
+	- Pretty urls
+	- ErrorDocument
